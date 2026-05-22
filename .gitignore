@@ -1,0 +1,47 @@
+# ==========================================
+# Yunman's Diariy — .gitignore
+# ==========================================
+
+# 数据库文件（含实际数据，不可上传）
+public/data/riji.db
+public/data/*.db
+
+# Session 缓存
+app/cache/sessions/*
+!app/cache/sessions/index.html
+
+# 日志文件
+app/logs/*.log
+app/logs/*.php
+!app/logs/index.html
+
+# 文档目录
+docs/
+
+# 安装程序（不应存在于生产环境）
+install.php
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Composer
+vendor/
+
+# 环境配置（如有）
+.env
+.env.local
