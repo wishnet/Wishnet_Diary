@@ -19,7 +19,7 @@ app/logs/*.php
 docs/
 
 # 安装程序（不应存在于生产环境）
-install.php
+# install.php
 
 # IDE / 编辑器
 .vscode/
