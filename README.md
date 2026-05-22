@@ -1,4 +1,4 @@
-# 📔 Yunman's Diariy
+# 📔 Wishnet's Diariy
 
 A lightweight, elegant personal diary website built with PHP and SQLite.
 
