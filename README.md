@@ -91,6 +91,7 @@ del install.php  # Windows
 | Admin Panel | `admin` | `admin123` |
 | Site Access | — | `123456` |
 
+
 > ⚠️ **Change all default passwords immediately** via Admin → Site Settings.
 
 ---
