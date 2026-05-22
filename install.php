@@ -366,7 +366,11 @@ if ($step === 3 && $_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                         <div>
                             <label class="block text-xs mb-1" style="color: #a08972;">网站访问密码（前台需要输入此密码才能浏览）</label>
+<<<<<<< HEAD
                             <input type="password" name="site_access_password" value="123456" required minlength="6"
+=======
+                            <input type="password" name="site_access_password" value="Wishnet_diary_2026" required minlength="6"
+>>>>>>> 686fb4ee3c9d00d7daad0b6e45d8d7f8e2084162
                                 class="input-style w-full px-3 py-2.5 rounded-lg text-sm">
                         </div>
                     </div>

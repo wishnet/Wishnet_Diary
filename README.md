@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 📔 Wishnet's Diary
+=======
+# 📔 Wishnet's Diariy
+>>>>>>> 686fb4ee3c9d00d7daad0b6e45d8d7f8e2084162
 
 A lightweight, elegant personal diary website built with PHP and SQLite.
 
