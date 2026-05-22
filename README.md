@@ -89,7 +89,7 @@ del install.php  # Windows
 | Account | Username | Password |
 |---------|----------|----------|
 | Admin Panel | `admin` | `admin123` |
-| Site Access | — | `Wishnet_diary_2026` |
+| Site Access | — | `123456` |
 
 > ⚠️ **Change all default passwords immediately** via Admin → Site Settings.
 
