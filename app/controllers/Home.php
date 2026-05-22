@@ -89,7 +89,7 @@ class Home extends CI_Controller {
     private function _common_data()
     {
         return array(
-            'site_name' => $this->setting_model->get('site_name', "Yunman's Diariy"),
+            'site_name' => $this->setting_model->get('site_name', "Wishnet's Diary"),
             'site_description' => $this->setting_model->get('site_description', '记录生活的点点滴滴'),
             'monthly_archive' => $this->diary_model->get_monthly_archive(),
             'sidebar_tags' => $this->diary_model->get_all_tags_with_count(),

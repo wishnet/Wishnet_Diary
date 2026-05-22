@@ -33,7 +33,7 @@ class Admin extends CI_Controller {
         }
 
         $data['error'] = '';
-        $data['site_name'] = $this->setting_model->get('site_name', "Yunman's Diariy");
+        $data['site_name'] = $this->setting_model->get('site_name', "Wishnet's Diary");
         $data['csrf_name'] = $this->security->get_csrf_token_name();
         $data['csrf_hash'] = $this->security->get_csrf_hash();
 
@@ -159,7 +159,7 @@ class Admin extends CI_Controller {
         $this->check_login();
 
         $data['diary_count'] = $this->diary_model->get_diary_count();
-        $data['site_name'] = $this->setting_model->get('site_name', "Yunman's Diariy");
+        $data['site_name'] = $this->setting_model->get('site_name', "Wishnet's Diary");
         $data['username'] = $this->session->userdata('admin_username');
 
         $this->load->view('templates/admin_header', $data);
@@ -200,7 +200,7 @@ class Admin extends CI_Controller {
 
         $this->pagination->initialize($config);
         $data['pagination'] = $this->pagination->create_links();
-        $data['site_name'] = $this->setting_model->get('site_name', "Yunman's Diariy");
+        $data['site_name'] = $this->setting_model->get('site_name', "Wishnet's Diary");
         $data['csrf_name'] = $this->security->get_csrf_token_name();
         $data['csrf_hash'] = $this->security->get_csrf_hash();
 
@@ -225,7 +225,7 @@ class Admin extends CI_Controller {
         $data['error'] = '';
         $data['moods'] = mood_options();
         $data['weathers'] = weather_options();
-        $data['site_name'] = $this->setting_model->get('site_name', "Yunman's Diariy");
+        $data['site_name'] = $this->setting_model->get('site_name', "Wishnet's Diary");
         $data['csrf_name'] = $this->security->get_csrf_token_name();
         $data['csrf_hash'] = $this->security->get_csrf_hash();
 
@@ -268,7 +268,7 @@ class Admin extends CI_Controller {
         $data['error'] = '';
         $data['moods'] = mood_options();
         $data['weathers'] = weather_options();
-        $data['site_name'] = $this->setting_model->get('site_name', "Yunman's Diariy");
+        $data['site_name'] = $this->setting_model->get('site_name', "Wishnet's Diary");
         $data['csrf_name'] = $this->security->get_csrf_token_name();
         $data['csrf_hash'] = $this->security->get_csrf_hash();
 
@@ -347,7 +347,7 @@ class Admin extends CI_Controller {
         $data['settings'] = $this->setting_model->get_all();
         $data['error'] = '';
         $data['success'] = '';
-        $data['site_name'] = $this->setting_model->get('site_name', "Yunman's Diariy");
+        $data['site_name'] = $this->setting_model->get('site_name', "Wishnet's Diary");
         $data['csrf_name'] = $this->security->get_csrf_token_name();
         $data['csrf_hash'] = $this->security->get_csrf_hash();
 

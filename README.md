@@ -1,4 +1,4 @@
-# 📔 Yunman's Diariy
+# 📔 Wishnet's Diary
 
 A lightweight, elegant personal diary website built with PHP and SQLite.
 
@@ -89,7 +89,7 @@ del install.php  # Windows
 | Account | Username | Password |
 |---------|----------|----------|
 | Admin Panel | `admin` | `admin123` |
-| Site Access | — | `Yunman_diariy_2026` |
+| Site Access | — | `Wishnet_diary_2026` |
 
 > ⚠️ **Change all default passwords immediately** via Admin → Site Settings.
 
@@ -138,7 +138,7 @@ riji/
 
 | Setting | Default | Description |
 |---------|---------|-------------|
-| Site Name | Yunman's Diariy | Displayed in header & title |
+| Site Name | Wishnet's Diary | Displayed in header & title |
 | Description | 记录生活的点点滴滴 | Meta description |
 | Entries Per Page | 10 | Pagination limit |
 | ICP备案号 | (empty) | Footer ICP number |

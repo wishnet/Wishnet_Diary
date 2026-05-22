@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($site_name) ? $site_name : "Yunman's Diariy"; ?></title>
+    <title><?php echo isset($site_name) ? $site_name : "Wishnet's Diary"; ?></title>
     <meta name="description" content="<?php echo isset($site_description) ? htmlspecialchars($site_description) : ''; ?>">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
